@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.tor {
+  background-color: rgb(179, 179, 179);
+  padding: 10px;
+  box-shadow: 0.5px 0.5px 5px 2px rgba(0, 0, 0, 0.555);
+}
+
+a:hover {
+  color: rgb(250, 250, 250);
+}
+
+div a {
+  font-size: 18px;
+  text-decoration: underline;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+
+.container {
+  display: flex;
+  -webkit-display: flex;
+  margin-top: 130px;
+  width: 730px;
+  margin-left: 330px;
+}
+
+p {
+  text-align: left;
+  color: white;
+}
+
+h1 {
+  margin-bottom: 30px;
+  margin-top: 10px;
+  color: white;
+}
+
+button {
+  margin-top: 70px;
+  width: 120px;
+  padding: 10px;
+  border-radius: 70px;
+  border: none;
+}
+
+.sss {
+  color: rgb(216, 148, 0);
+}
+
+.aaa {
+  color: rgb(1, 122, 76);
+}
+
+.bbb {
+  color: rgb(0, 36, 0);
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0);
+  border: 2px solid white;
+  color: white;
+}
+
+.ret {
+  background-color: rgb(0, 36, 0);
+  height: 390px;
+  padding: 50px 0 0 0;
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.top {
+  background-color: rgb(1, 122, 76);
+  padding: 50px 0 0 0;
+  padding-right: 30px;
+  padding-left: 30px;
+
+  height: 390px;
+}
+
+.pol {
+  background-color: rgb(216, 148, 0);
+  height: 390px;
+  padding: 50px 0 0 0;
+  padding-right: 30px;
+  padding-left: 30px;
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+}
+.rot {
+  background-color: rgb(179, 179, 179);
+  padding: 10px;
+  box-shadow: 0.5px 0.5px 5px 2px rgba(0, 0, 0, 0.555);
+}
+
+a:hover {
+  color: rgb(250, 250, 250);
+}
+
+div a {
+  font-size: 18px;
+  text-decoration: underline;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: rgb(0, 0, 0);
+  gap: 10px;
+  font-size: 30px;
+  color: white;
+  height: 300px;
+  padding: 20px;
+  width: 700px;
+  margin-top: 160px;
+  margin-left: 280px;
+}
+
+.item1 {
+  background-color: rgb(255, 115, 0);
+  grid-column: 1 / span 2;
+  grid-row: 1 / span 3;
+}
+
+.item2 {
+  background-color: yellow;
+  grid-column: 3;
+  grid-row: 1 / span 3;
+}
+
+.item3 {
+  background-color: green;
+  grid-column: 1;
+  grid-row: 4 / span 4;
+}
+
+.item4 {
+  background-color: rgb(0, 183, 255);
+  grid-column: 2 / span 2;
+  grid-row: 4 / span 2;
+}
+
+.item5 {
+  background-color: rgb(0, 183, 255);
+  grid-column: 2 / span 2;
+  grid-row: 6 / span 2;
+}
